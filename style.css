@@ -398,7 +398,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    margin-bottom: 50px;
 }
 
 .image-1{
@@ -408,6 +407,27 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.image-2{
+    width: 300px;
+    height: 220px;
+    background-color: #d9d9d9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.image-3{
+    width: 300px;
+    height: 220px;
+    background-color: #d9d9d9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 .image-section-text{
@@ -419,19 +439,51 @@ a {
 .shortcut-title{
     font-weight: 300;
     font-size: 24px;
-    width: 90%;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .shortcut-text{
     font-size: 18px;
-    width: 90%;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    width: 180px;
+    height: 60px;
+    border-radius: 0;
+    background-color: #39784c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.45s;
+}
+
+.button-container{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+button:hover{
+    background-color: #1E1E1E;
+}
+
+.eagle-logo-green{
+    transition: 0.45s;
+}
+
+.eagle-logo-green:hover{
+    filter: grayscale(100%);
+    filter: brightness(0%);
 }
