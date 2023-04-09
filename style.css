@@ -367,12 +367,18 @@ a {
     margin-bottom: 30px;
 }
 
-.signature img{
+.signature{
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signature-img{
     width: 200px;
     height: auto;
-    margin-top: -40px;
-    margin-bottom: -30px;
-    margin-left: 20px;
+    margin-top: -32px;
 }
 
 .letter h2{
