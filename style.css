@@ -323,9 +323,8 @@ a {
 
 .title {
     font-weight: 500px;
-    padding-top: 190px;
     font-size: 27px;
-    width: 90%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -333,7 +332,7 @@ a {
 .line {
     background-color: white;
     height: 1.5px;
-    width: 90%;
+    width: 85%;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -343,4 +342,69 @@ a {
 
 .subtitle {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.letter {
+    font-family: 'Times New Roman', Times, serif;
+    color: #424242;
+}
+
+.letter h1{
+    font-weight: 300;
+    font-size: 24px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.letter p{
+    font-size: 16px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.signature img{
+    width: 200px;
+    height: auto;
+    margin-top: -40px;
+    margin-bottom: -30px;
+    margin-left: 20px;
+}
+
+.letter h2{
+    font-size: 16px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.line-2{
+    width: 90%;
+    height: 1px;
+    background-color: #cccccc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.image-1{
+    width: 300px;
+    height: 220px;
+    background-color: #d9d9d9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.image-section-text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
