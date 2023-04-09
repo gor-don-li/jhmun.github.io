@@ -40,7 +40,7 @@ a {
 	top: 0;
 	z-index: 99;
 	padding: 10px;
-    height: 103px;
+    height: 105px;
     background-color: #ffffff;
     position: fixed;
 
@@ -310,7 +310,7 @@ a {
 }
 
 .image-section {
-    margin-top: 103px;
+    margin-top: 105px;
     background-image: url(img/background_2.png);
     background-size: cover;
 	background-repeat: no-repeat;
@@ -322,17 +322,17 @@ a {
 }
 
 .title {
-    font-weight: 300px;
-    padding-top: 195px;
-    font-size: 12px;
-    width: 90%;
+    font-weight: 500px;
+    padding-top: 185px;
+    font-size: 25px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .line {
     background-color: white;
-    height: 1px;
+    height: 1.5px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
