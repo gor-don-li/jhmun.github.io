@@ -359,7 +359,7 @@ a {
 }
 
 .letter p{
-    font-size: 16px;
+    font-size: 18px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -382,7 +382,7 @@ a {
 }
 
 .letter h2{
-    font-size: 16px;
+    font-size: 18px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -392,7 +392,7 @@ a {
 
 .line-2{
     width: 90%;
-    height: 1px;
+    height: 1.5px;
     background-color: #cccccc;
     margin-left: auto;
     margin-right: auto;
@@ -413,4 +413,24 @@ a {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.shortcut-title{
+    font-weight: 300;
+    font-size: 24px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.shortcut-text{
+    font-size: 18px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
