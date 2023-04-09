@@ -5,7 +5,7 @@ body {
 body {
 	line-height: 1.5;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 450;
+	font-weight: 400;
 }
 
 body.hidden-scrolling {
@@ -322,7 +322,7 @@ a {
 }
 
 .title {
-    font-weight: 500px;
+    font-weight: 450;
     font-size: 27px;
     width: 85%;
     margin-left: auto;
@@ -486,4 +486,47 @@ button:hover{
 .eagle-logo-green:hover{
     filter: grayscale(100%);
     filter: brightness(0%);
+}
+
+.footer{
+    width: 100%;
+    background-color: #424242;
+}
+
+.footer p{
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-2{
+    width: 100%;
+    background-color: #1E1E1E;
+    font-family: 'Roboto', sans-serif;
+	color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.instagram{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-2 p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
 }
