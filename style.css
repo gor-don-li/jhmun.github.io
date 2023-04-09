@@ -43,8 +43,6 @@ a {
     height: 103px;
     background-color: #ffffff;
     position: fixed;
-    top: 0;
-    left: 0;
 
 }
 
@@ -325,7 +323,7 @@ a {
 
 .title {
     font-weight: 300px;
-    padding-top: 60px;
+    padding-top: 165px;
     font-size: 12px;
     width: 90%;
     margin-left: auto;
