@@ -104,7 +104,7 @@ a {
 
 .header .menu>.menu-item:hover>a .plus:before,
 .header .menu>.menu-item:hover>a .plus:after {
-	background-color: #39784c;
+	background-color: #424242;
 }
 
 .header .menu>.menu-item>a .plus:after {
@@ -113,7 +113,7 @@ a {
 
 .header .menu>.menu-item>.sub-menu>.menu-item>a:hover,
 .header .menu>.menu-item:hover>a {
-	color: #39784c;
+	color: #424242;
 }
 
 .header .menu>.menu-item>.sub-menu {
@@ -197,7 +197,7 @@ a {
 .header .close-nav-menu {
 	height: 40px;
 	width: 40px;
-	background-color: #ffffff;
+	background-color: #1E1E1E;
 	margin: 0 0 15px 15px;
 	cursor: pointer;
 	display: none;
@@ -239,7 +239,7 @@ a {
 		height: 100%;
 		top: 0;
 		overflow-y: auto;
-		background-color: white;
+		background-color: #1E1E1E;
 		z-index: 1000;
 		padding: 15px 0;
 		transition: all 0.5s ease;
@@ -262,18 +262,18 @@ a {
 	}
 
 	.header .menu>.menu-item>a {
-		color: #cccccc;
+		color: #ffffff;
 		padding: 12px 15px;
-		border-bottom: 1px solid #cccccc;
+		border-bottom: 1px solid #424242;
 	}
 
 	.header .menu>.menu-item:first-child>a {
-		border-top: 1px solid #cccccc;
+		border-top: 1px solid #424242;
 	}
 
 	.header .menu>.menu-item>a .plus:before,
 	.header .menu>.menu-item>a .plus:after {
-		background-color: #39784c;
+		background-color: #424242;
 	}
 
 	.header .menu>.menu-item-has-children.active>a .plus:after {
@@ -298,8 +298,8 @@ a {
 
 	.header .menu>.menu-item>.sub-menu>.menu-item>a {
 		padding: 12px 45px;
-		color: #cccccc;
-		border-bottom: 1px solid #cccccc;
+		color: #ffffff;
+		border-bottom: 1px solid #424242
 	}
 
 	.header .close-nav-menu,
