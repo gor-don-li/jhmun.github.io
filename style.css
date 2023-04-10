@@ -480,7 +480,7 @@ button:hover{
 }
 
 .eagle-logo-green{
-    transition: 0.45s;
+    transition: 0.35s;
 }
 
 .eagle-logo-green:hover{
@@ -494,7 +494,7 @@ button:hover{
 }
 
 .footer p{
-    color: white;
+    color: #f5f5f5;
     font-weight: 300;
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
@@ -511,7 +511,7 @@ button:hover{
     width: 100%;
     background-color: #1E1E1E;
     font-family: 'Roboto', sans-serif;
-	color: white;
+	color: #F5F5F5;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -529,4 +529,14 @@ button:hover{
     margin-right: auto;
     text-align: center;
     width: 90%;
+}
+
+::selection{
+    background: #1E1E1E;
+    color: white;
+}
+
+.custom::selection{
+    background: white;
+    color: #1E1E1E;
 }
