@@ -105,7 +105,7 @@ a {
 
 .header .menu>.menu-item:hover>a .plus:before,
 .header .menu>.menu-item:hover>a .plus:after {
-	background-color: #424242;
+	color: #717171;
 }
 
 .header .menu>.menu-item>a .plus:after {
@@ -437,7 +437,7 @@ a {
     transform: translateY(-50%);
 }
 
-.shortcut-title{
+.shortcut-title-1{
     font-weight: 300;
     font-size: 24px;
     width: 300px;
@@ -446,7 +446,45 @@ a {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.shortcut-text{
+.shortcut-text-1{
+    font-size: 18px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.shortcut-title-2{
+    font-weight: 300;
+    font-size: 24px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.shortcut-text-2{
+    font-size: 18px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.shortcut-title-3{
+    font-weight: 300;
+    font-size: 24px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.shortcut-text-3{
     font-size: 18px;
     width: 300px;
     margin-left: auto;
@@ -468,7 +506,23 @@ button{
     transition: 0.45s;
 }
 
-.button-container{
+.button-container-1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.button-container-2{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.button-container-3{
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -512,7 +566,7 @@ button:hover{
     width: 100%;
     background-color: #1E1E1E;
     font-family: 'Roboto', sans-serif;
-	color: #c4c4c4;
+	color: #ffffff;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -621,8 +675,7 @@ button:hover{
 	}
 
 	.line-2{
-		width: 75%;
-		max-width: 1000px;
+		width: 655px;
 		height: 1.5px;
 		background-color: #cccccc;
 		margin-left: auto;
@@ -631,12 +684,130 @@ button:hover{
 	}
 
 	.shortcuts{
-		display: flex;
-		
-  		justify-content: center;
- 		
+        display: grid;
+        grid-template-columns: 300px 300px;
+		justify-content: center;
+    }
+
+	.image-1{
+        margin-left: -22.5px;
+    }
+
+	.shortcut-title-1{
+		margin-left: -22.5px;
 	}
+
+	.shortcut-text-1{
+		margin-left: -22.5px;
+	}
+
+	.button-container-1{
+		margin-left: -22.5px;
+	}
+
+	.image-2{
+        margin-right: -22.5px;
+    }
+
+	.shortcut-title-2{
+		margin-right: -22.5px;
+	}
+
+	.shortcut-text-2{
+		margin-right: -22.5px;
+	}
+
+	.button-container-2{
+		margin-right: -22.5px;
+	}
+
+	.image-3{
+		margin-left: -22.5px;
+    }
+
+	.shortcut-title-3{
+		margin-left: -22.5px;
+	}
+
+	.shortcut-text-3{
+		margin-left: -22.5px;
+	}
+
+	.button-container-3{
+		margin-left: -22.5px;
+	}
+
 }
 
 
+@media (min-width: 1100px) {
+    .shortcuts{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+		justify-content: center;
+    }
+
+    .image-1{
+        margin-left: -45px;
+    }
+
+    .image-3{
+        margin-right: -45px;
+		margin-left: 45px;
+    }
+
+	.shortcut-title-1{
+		margin-left: -45px;
+	}
+
+	.shortcut-text-1{
+		margin-left: -45px;
+	}
+
+	.button-container-1{
+		margin-left: -45px;
+	}
+
+	.shortcut-title-3{
+		margin-right: -45px;
+		margin-left: 45px;
+	}
+	
+	.shortcut-text-3{
+		margin-right: 450px;
+		margin-left: 45px;
+	}
+
+	.button-container-3{
+		margin-right: -45px;
+		margin-left: 45px;
+	}
+
+	.line-2{
+		width: 1000px;
+		height: 1.5px;
+		background-color: #cccccc;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 40px;
+	}
+
+	.image-2{
+        margin-right: 0px;
+    }
+
+	.shortcut-title-2{
+		margin-right: 0px;
+	}
+
+	.shortcut-text-2{
+		margin-right: 0px;
+	}
+
+	.button-container-2{
+		margin-right: 0px;
+	}
+
+    }
+  
 
