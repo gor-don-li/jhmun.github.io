@@ -534,15 +534,6 @@ button:hover{
     background-color: #1E1E1E;
 }
 
-.eagle-logo-green{
-    transition: 0.35s;
-}
-
-.eagle-logo-green:hover{
-    filter: grayscale(100%);
-    filter: brightness(0%);
-}
-
 .footer{
     width: 100%;
     background-color: #424242;
@@ -809,5 +800,3 @@ button:hover{
 	}
 
     }
-  
-
